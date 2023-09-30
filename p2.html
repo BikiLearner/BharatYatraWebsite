@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .from{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif ;
+            min-height: 100vh;
+            flex-direction: column;
+          
+        }
+        #sign-in,#sign-up{
+    
+            box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 7%;
+              
+        }
+       input,label{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="from">
+    <div id="sign-in">
+        <form action="/submit" method="POST">
+            <h2>Sign in here</h2>
+            <div class="form-s">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-s">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-s">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <input type="submit" name="submit" value="sign-in">
+        </form>
+    </div>
+    <div id="sign-up">
+        <h2>Sign up here</h2>
+        <form action="/submit-val" method="POST">
+    
+            <div class="form-s">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-s">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-s">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-s">
+                <label for="con-password">Confirm Password</label>
+                <input type="password" id="con-password" name="con-password">
+            </div>
+            <input type="submit" name="submit" value="sign-up">
+        </form>
+        <a href="#" class="sign">already sign in sign up here</a>
+    </div>
+    </div>
+    <script>
+        const sign=document.querySelector('.sign');
+        const form1=document.querySelector('.sign-in');
+        const form2=document.querySelector('.sign-up');
+        const from=document.querySelector('.from')
+        from[0].style.display='none';
+
+</script>
+</body>
+</html>

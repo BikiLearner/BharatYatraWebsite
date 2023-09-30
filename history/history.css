@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    overflow-x: hidden;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    background-image: url(https://rare-gallery.com/thumbs/390388-4k-wallpaper.jpg);
+    background-position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+}
+
+
+
+#logo img{
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+
+#navbar ul{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 10px 225px;
+    display: flex;
+    margin-left: 55%;
+    
+    align-items: center;
+    
+
+}
+#navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#navbar li a:hover{
+    text-decoration: none;
+    font-size:30px ;
+    color: rgb(225, 201, 14);
+}
+
+.lol{
+    text-align: center;
+    color: white;
+    
+}
+.lol h1{
+    font-size:65px ;
+    color: rgb(10, 10, 10);
+    font-weight:600 ;
+    color: white;
+}
+.lol h3{
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+.lol a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 4px solid rgb(250, 246, 246);
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+#video{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0;
+    z-index: -1;
+    height: 1060px;}
+
+    #sectionb{
+        
+        height: 2400px;
+    }
+    .about{
+        
+        margin: 6px;
+        margin-bottom: 35px;
+    }
+.about h3{
+    text-align: center;
+    font-size: 70px;
+    text-decoration: wavy;
+
+}
+.about p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+font-family: 'Cinzel', serif;
+    
+}
+.box{
+    margin:15px ;
+    margin-top: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 15px 7px;
+    display: flex;
+}
+.box img{
+    height: 300px;
+    width: 300px;
+
+}
+.box1{
+    
+    width: 80%;
+    padding: 12px;
+    font-size: 24px;
+}
+.box1 h4{
+    font-size: 30px;
+}
+
+
+
+
+#sec{
+    
+    height: 600px;
+    width: 1800px;
+    display: flex;
+    padding: 40px;
+}
+.box2{
+    border: 2px solid rgb(255, 253, 253);
+    width: 450px;
+    height: 450px;
+    margin-left: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 3px black;
+   
+   
+}
+.box2 img{
+    height: 225px;
+    width: 450px;
+    
+}
+.box3{
+    text-align: center;
+    padding-top: 26px;
+    height: 156px;
+}
+.box3 h3{
+    font-size: 30px;
+    padding-bottom: 26px;
+}
+.box3 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    
+    border-radius: 10px;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+   background-color: #547cff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    color: white;
+    margin: 8px;
+}
+
+nav ul li {
+    display: inline;
+    color: #fff;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+nav ul li a:hover{
+    font-size:20px ;
+    color: red;
+}
+
+.sec{
+    background-image: linear-gradient(#c2d1f0,rgb(102, 167, 241));
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 25px;
+
+
+}
+.box{
+    border: 2px solid rgb(10, 8, 8);
+    height: 550px;
+    width: 370px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 5px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: white;
+}
+.box img{
+    height: 170px;
+    width: 370px;
+}
+.box h3{
+    background-color: aliceblue;
+}
+.fee{
+    height: 700px;
+    text-align: center;
+    
+    margin: 15px;
+    background-color: aliceblue;
+}
+.fee h1{
+    background-color: aliceblue;
+    text-shadow: 1px 2px;
+}
+.price h4{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 9px;
+    height: 80px;
+}
+.price {
+    
+    background-color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+.price a{
+    margin-top: 5px;
+    border: 2px solid rgb(110, 235, 193);
+    background-color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 17px;
+    margin: 15px;
+    font-size: 15px;
+}
